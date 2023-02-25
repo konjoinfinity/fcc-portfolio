@@ -1,0 +1,114 @@
+header{
+  padding-bottom: 2em
+}
+
+#projects{
+  margin-top: 200;
+  margin-bottom: 200
+}
+
+.main-screen{
+    background: linear-gradient(45deg, rgb(247, 255, 222),rgb(118, 201, 255));
+}
+
+.headtext{
+  color: white
+}
+
+.project-tile{
+  height: 300;
+  width: 300;
+  margin-bottom: 20;
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.tiles{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.smallnav{
+  background-color:#597faf;
+  padding: 1.5em;
+  position: fixed;
+   top: 0px;
+   width: 100%
+}
+h2{
+  padding-top: 30px;
+}
+a {
+  padding: 15;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+navbar, a:hover {
+  background-color: #bad8ec;
+  color: black
+}
+
+@media (max-width: 768px) {
+  .container-fluid{
+    justify-content: space-between;
+    display: grid
+  }
+  .smallnav-link{
+  display: none;
+}
+  .main-section{
+  margin-left: 0;
+  }
+  .first{
+ padding-top: 3em 
+}
+a.smallnav-link{
+color: #f1f1f1;
+}
+a.smallnav-link:hover{
+color: #f1f1f1;
+}
+}
+.headbar{
+color: #f1f1f1;
+}
+
+
+@media (min-width: 768px) {
+.navbar-toggler{
+  display: none;
+}
+
+}
+.navbar-toggler{
+  height: 50;
+  width: 50;
+  padding: 0;
+}
+
+.big{
+  font-size: 40;
+   text-align: center
+}
+
+.bigger{
+  font-size: 60;
+  text-align: center
+}
+
+#profile-link{
+  text-align: center
+}
+
+.main-screen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh
+}
